@@ -26,14 +26,12 @@ def desennha_grafico(funcao):
                 else:
                     wall.append(' ')
             print(str(wall).strip('[]').replace(',', '').replace("'", ''))
-            wall1 = wall
             wall.clear()
-        x+=1   
-
+        
         #Imprime as variaveis abaixo do grafico
         print("y = ",y)
         print("x = ",x)
-
+        x+=1   
         #Ajusta para melhor aparecer na tela
         if y > 12 and x>0:
             x=-10
